@@ -1,4 +1,4 @@
-# Azure Data Engineering — Near‑Real‑Time Insurance Analytics (Medium)
+# Azure Data Engineering — Near‑Real‑Time Insurance Analytics 
 
 Move executive reporting from day‑old to near‑real‑time using Azure‑native ingestion, Databricks transforms, and Synapse serving with automated quality gates.
 
