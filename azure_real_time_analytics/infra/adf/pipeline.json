@@ -1,0 +1,29 @@
+{
+  "name": "Ingest_Batch_To_Bronze",
+  "properties": {
+    "activities": [
+      {
+        "name": "CopyPolicy",
+        "type": "Copy",
+        "inputs": [
+          {
+            "referenceName": "PolicySource"
+          }
+        ],
+        "outputs": [
+          {
+            "referenceName": "ADLS_Bronze"
+          }
+        ],
+        "typeProperties": {
+          "source": {
+            "type": "SqlSource"
+          },
+          "sink": {
+            "type": "AzureBlobFSink"
+          }
+        }
+      }
+    ]
+  }
+}
